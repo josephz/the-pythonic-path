@@ -38,9 +38,9 @@ def find_kth_2(a: list, b: list, k: int):
 
 
 start = perf_counter()
-print(find_kth_1(list_a, list_b, 5))
+print(find_kth_1(list_a, list_b, 35))
 print(perf_counter() - start)
 
 start = perf_counter()
-print(find_kth_2(list_a, list_b, 5))
+print(find_kth_2(list_a, list_b, 35))
 print(perf_counter() - start)
